@@ -1,8 +1,5 @@
 language: ru
 
-logging:
-  level: DEBUG
-
 pipeline:
 - name: WhitespaceTokenizer                # Токенизатор, разделяющий текст по пробелам
 - name: RegexFeaturizer                    # Извлечение признаков с помощью регулярных выражений
@@ -39,9 +36,4 @@ policies:
   max_history: 2                            # Минимальное количество шагов в истории
   epochs: 1                                 # Минимальное количество эпох обучения
   constrain_similarities: true
-assistant_id: 20250618-161054-free-change
-
-
-rest:
-  cors_origins:
-    - "*"
+assistant_id: 20250618-183907-legato-fencing

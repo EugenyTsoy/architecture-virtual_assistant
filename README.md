@@ -1,0 +1,1 @@
+Лог [log_example](log_example.txt)
